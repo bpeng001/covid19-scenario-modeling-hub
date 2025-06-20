@@ -1,4 +1,4 @@
-# Packages required for the truth data update (update 20250512)
+# Packages required for the truth data update (update 20250620)
 gh
 hubValidations
 jsonlite
