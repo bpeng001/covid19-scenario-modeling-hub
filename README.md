@@ -564,6 +564,9 @@ University of Pittsburgh.
       University of North Carolina at Chapel Hill),
       Shaun Truelove (Department of International Health, Johns Hopkins University)
 
+- [*LEMMA (Part of the ACCIDDA center) --- DTW+Shape based Ensemble*](model-metadata/LEMMA-EnsembleDTWS.yaml)
+    - Ajitesh Srivastava (University of Southern California)
+
 - [*MOBS Lab at Northeastern University --- GLEAM COVID-19 Model*](model-metadata/MOBS_NEU-GLEAM_COVID.yml)
     - Alessandro Vespignani (MOBS Lab, Northeastern University),
       Matteo Chinazzi (The Roux Institute, Northeastern University),
