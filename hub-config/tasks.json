@@ -1,5 +1,5 @@
 {
-  "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
+  "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/tasks-schema.json",
   "rounds": [
     {
       "round_id": "origin_date",
@@ -58,7 +58,11 @@
               "description": "Weekly new deaths due to COVID-19 as reported by state and local departments of public health and aggregated in the NCHS data collection system.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "incident death count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000647"
+              }
             },
             {
               "target_id": "inc hosp",
@@ -70,7 +74,11 @@
               "description": "Weekly newly reported hospitalizations where the patient has COVID-19, as reported by hospital facilities and aggregated in the HHS Protect data collection system.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "incident hospitalization count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000645"
+              }
             },
             {
               "target_id": "cum death",
@@ -82,7 +90,11 @@
               "description": "Weekly cumulative deaths due to COVID-19 since the beginning of the simulation.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "cumulative death count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000646"
+              }
             },
             {
               "target_id": "cum hosp",
@@ -94,7 +106,11 @@
               "description": "Weekly cumulative reported hospitalizations where the patient has COVID-19, since the beginning of the simulation.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "cumulative hospitalization count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000644"
+              }
             }
           ]
         },
@@ -158,7 +174,11 @@
               "description": "Weekly new deaths due to COVID-19 as reported by state and local departments of public health and aggregated in the NCHS data collection system.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "incident death count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000647"
+              }
             },
             {
               "target_id": "inc hosp",
@@ -170,7 +190,11 @@
               "description": "Weekly newly reported hospitalizations where the patient has COVID-19, as reported by hospital facilities and aggregated in the HHS Protect data collection system.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "incident hospitalization count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000645"
+              }
             },
             {
               "target_id": "cum death",
@@ -182,7 +206,11 @@
               "description": "Weekly cumulative deaths due to COVID-19 since the beginning of the simulation.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "cumulative death count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000646"
+              }
             },
             {
               "target_id": "cum hosp",
@@ -194,7 +222,11 @@
               "description": "Weekly cumulative reported hospitalizations where the patient has COVID-19, since the beginning of the simulation.",
               "target_type": "discrete",
               "is_step_ahead": true,
-              "time_unit": "week"
+              "time_unit": "week",
+              "additional_metadata": {
+                "alternative_name": "cumulative hospitalization count",
+                "uri": "http://purl.obolibrary.org/obo/APOLLO_SV_00000644"
+              }
             }
           ]
         }
@@ -203,7 +235,15 @@
         "start": "2025-05-06",
         "end": "2025-06-16"
       },
-      "partition": ["origin_date", "target"]
+      "additional_metadata": {
+        "partition": ["origin_date", "target"],
+        "disease": [
+          {
+            "name": "COVID-19",
+            "uri": "http://purl.obolibrary.org/obo/DOID_0080600"
+          }
+        ]
+      }
     }
   ]
 }
