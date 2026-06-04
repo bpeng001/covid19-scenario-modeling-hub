@@ -322,10 +322,6 @@ national scenarios.
 Please note that when writing FIPS codes, they should be written in as a 
 character string to preserve any leading zeroes.
 
-For the round 1, only the location included in RSV-NET target data are 
-expected:
-`"US","06","08","09","13","24","26","27","35","36","41","47","49"`
-
 
 ### `age_group` 
 
@@ -379,8 +375,8 @@ Both columns should only contain integer number.
 The submission file is expected to have 100 simulation samples 
 (or trajectories) for each "group". 
 
-For round 18, it is required to have the trajectories grouped at least by 
-`"age_group"` and `"horizon"`, so it is required that the combination of 
+For example, for round 18, it was required to have the trajectories grouped at
+least by `"age_group"` and `"horizon"`, so it is required that the combination of 
 the `run_grouping` and `stochastic_run` columns contains at least an unique
 identifier for each group containing all the possible value for `"age_group"` 
 and `"horizon"`.
