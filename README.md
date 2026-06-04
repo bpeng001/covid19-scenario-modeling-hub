@@ -467,16 +467,22 @@ Sunday, June 8, 2025, to Saturday, June 5, 2027.
 
 **Submission Target**
 
-- Weekly Incident Deaths
-- Weekly Incident Hospitalization
+- Required:
+    - Weekly incident deaths
+    - Weekly incident hospitalizations
+- Optional:
+    - Weekly incident hospitalizations by population group 
+    (<5, 5-17, 18-64 low-risk, 18-64 high-risk, 65+). See 
+    [model-output documentation](./model-output/README.md#age_group) 
+    on how to code the age group in the submission file.
 
 
 **Other submission requirements**
 
--   Simulation trajectories: We ask that teams submit a sample of 100 to 300
-    simulation replicates.
--   Trajectories will need to be paired across horizons, age groups, targets,
-	and scenarios.
+-   We require teams to submit 300 representative trajectories from their simulations.
+-   Projections need to be **paired across scenarios**. If teams are providing 
+	age or risk group -specific projections, then these projections need to be 
+	paired across scenarios and populations subgroups.
 -   Projection quantiles for incident outcomes are optional but encouraged. 
     Similarly projections of cumulative outcomes (either as quantiles or cumulative
     trajectories) are optional.
