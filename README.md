@@ -480,9 +480,9 @@ Sunday, June 8, 2025, to Saturday, June 5, 2027.
 **Other submission requirements**
 
 -   We require teams to submit 300 representative trajectories from their simulations.
--   Projections need to be **paired across scenarios**. If teams are providing 
-	age or risk group -specific projections, then these projections need to be 
-	paired across scenarios and populations subgroups.
+-   Projections need to be **paired across horizon, targets and scenarios**. If teams are 
+	providing age or risk group -specific projections, then these projections need to be 
+	paired across horizon, targets, scenarios and populations subgroups.
 -   Projection quantiles for incident outcomes are optional but encouraged. 
     Similarly projections of cumulative outcomes (either as quantiles or cumulative
     trajectories) are optional.
