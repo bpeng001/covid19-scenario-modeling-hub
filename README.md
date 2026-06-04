@@ -579,6 +579,7 @@ The repository also contains round information in a
 [rounds/](./auxiliary-data/rounds) folder:
 
 - [Round 19](./auxiliary-data/rounds/round19.md)
+- [Round 20](./auxiliary-data/rounds/round20.md)
 
 
 ## Ensemble model

@@ -331,9 +331,14 @@ expected:
 
 Accepted values in the  `age_group` column are:
 
-- "0-64" (required)
-- "65-130" (required)
 - "0-130" (required)
+
+Starting 2026, additional optional values are possible:
+- "0-4"
+- "5-17"
+- "18-64_lowrisk"
+- "18-64_highrisk"
+- "65-130"
 
 
 ### `output_type`
