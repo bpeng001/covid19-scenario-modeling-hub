@@ -9,6 +9,9 @@ Estimates have been extrapolated and smoothed to provide weekly data.
 The `"coverage"` column contains percent coverage data in percent, meaning 0.4 
 represents 0.4 %, or in another example, 40 represents 40 %. 
 
+For Scenario A:
+- season 2025-2026: fall vaccine coverage operates from mid-August 2025 to mid-February 2026 
+
 For Scenario B and D: 
 - season 2025-2026: fall vaccine coverage operates from mid-August 2025 to mid-February 2026 
 - season 2026-2027: same as 2025-2026 data, shifted a year. 
@@ -18,9 +21,6 @@ For Scenario C and E:
 for all age groups. A second campaign for high-risk groups and 65+ starts mid-February 20026 
 to mid-August 2026 corresponding to 0.5 \* coverage of the main campaign 
 - season 2026-2027: same as 2025-2026 fall vaccination data, shifted by a year.
-
-#Notes#: Scenario A data are not provided, it should be assumed that vaccine 
-coverage is 0% in all age and risk groups
 
 The data is available at state and national level, for multiple age groups 
 (6mo-17, 18-49, 50-64, 65+) and risk group (high-risk, low-risk, overall)
