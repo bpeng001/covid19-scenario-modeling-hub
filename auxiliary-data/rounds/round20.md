@@ -135,28 +135,27 @@ for all scenarios and will be extrapolated from the
 [2025-26 data](https://www.cdc.gov/covidvaxview/weekly-dashboard/adult-vaccination-coverage.html).
 
 
-*No recommendation (scenario A)*: There is no recommendation to get additional booster 
-doses or receive additional vaccination either in 2025-26 or 2026-27. Teams should not 
-model any vaccination in the projection period, i.e., vaccine coverage is 0% in all 
-population groups. Without recommendation, vaccines will not be covered by insurance or 
-other sources. 
+In all 5 scenarios A-E, the COVID-19 vaccination campaign in 2025-26 operates as 
+observed, with vaccination starting in mid Aug 2025 and ending in mid Feb 2026. 
+In counterfactual scenario A, no further vaccination is implemented after mid Feb 2026.
 
 
-*Vaccination recommended annually for all currently eligible groups (scenarios B & D):* 
-Uptake of annual boosters in all population groups follows either the uptake observed 
-for the booster dose during the 2024-26 seasons (Scenario B) or an aspirational uptake 
-based on the 2025-26 flu vaccine (Scenario D). 
+Vaccination recommended annually for all currently eligible groups (scenarios B & D): 
+Prospective uptake of annual boosters in 2026-27 in all population groups follows either 
+the uptake observed for the booster dose during the 2025-26 seasons (Scenario B) or an 
+aspirational uptake based on the 2024-25 flu vaccine (Scenario D; the 2024-25 season 
+is used for reference due to availability of data). In scenarios B & D, the campaign 
+ollows the usual timing, from mid August 2026 to mid Feb 2027. The fall vaccine has 
+been reformulated to be matched to strains circulating in June 2026.
 
 
-*Vaccination recommended twice a year for high risk groups and annually for all other 
-eligible groups (scenarios C & E):* In high risk groups Scenario C, uptake of first-dose 
-boosters follows uptake observed for the booster dose during the 2025-26 season, with the 
-second dose campaign reaching half of the already vaccinated. In high risk groups Scenario 
-E, uptake of first-dose boosters follows uptake observed for the flu vaccine dose during 
-the 2025-26 season, with the second dose campaign reaching half of the already vaccinated. 
-Uptake for all other eligible groups proceeds annually, either similar to the uptake of 
-COVID19 boosters in 2025-26 (Scenario C), or similar to the flu vaccine uptake in 2025-26 
-(Scenario E).
+Vaccination recommended twice a year for high risk groups and annually for all other 
+eligible groups (scenarios C & E). Scenarios C and E follow scenarios B and D, with 
+the addition of a spring 2026 campaign focused on high risk individuals. The spring 
+campaign starts in mid Feb 2026 and runs through mid Aug 2026. Only high risk groups 
+are targeted, and low risk group do not receive any vaccination in the spring. 
+Coverage in the spring campaign is half that of the 2026-2027 fall. The vaccine 
+formulation is the same as that from the prior season.
 
 
 In this round, we assume that high-risk populations, of any age, are included in booster 
