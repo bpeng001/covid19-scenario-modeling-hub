@@ -1,7 +1,7 @@
 team_name: "PLANET Group at Northeastern University"
 team_abbr: "PLANET_NEU"
 model_name: "SIkJalpha"
-model_abbr: "SIkJalpha""
+model_abbr: "SIkJalpha"
 model_version: "1.0"
 model_contributors: [
   {
