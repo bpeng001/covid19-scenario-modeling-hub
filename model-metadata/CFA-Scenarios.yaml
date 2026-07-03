@@ -34,6 +34,11 @@ model_contributors:
       "affiliation": "CDC Center for Forecasting and Outbreak Analytics",
       "email": "tjk3@cdc.gov",
     },
+    {
+      "name": "Fuhan Yang",
+      "affiliation": "CDC Center for Forecasting and Outbreak Analytics",
+      "email": "zhw3@cdc.gov",
+    },
   ]
 license: "Apache-2.0 or later"
 methods: "SEIS multi-strain ODE model with age and risk structure, immune waning, and vaccine and infection history.  State-based models are fit to hospitalization and strain prevalence data.  US model is an aggregate."
